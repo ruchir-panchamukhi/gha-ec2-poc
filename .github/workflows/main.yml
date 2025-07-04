@@ -5,7 +5,7 @@ on:
 
 jobs:
   ssh-to-ec2:
-    runs-on: self-hosted
+    runs-on: self-hosted, ubuntu-latest
 
     steps:
       - name: Checkout repository
